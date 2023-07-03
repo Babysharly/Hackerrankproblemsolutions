@@ -1,4 +1,3 @@
-package practice;
 
 
 
@@ -8,7 +7,7 @@ public class EvenOdd {
 
 
 
-    //private static final Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
       
@@ -17,7 +16,7 @@ public class EvenOdd {
        if((num%2!=0)||((num%2==0)&&((num>=6)&&(num<=20)))){
            System.out.println("Weird");
        }
-       else if(((num%2==0)&&(num<=2)&&(num>=5))||((num%2==0)&&(num>20))){
+       else if(((num%2==0)&&(num>=2)&&(num<=5))||((num%2==0)&&(num>20))){
            System.out.println("Not Weird");
        }
        else {
